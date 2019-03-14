@@ -1,4 +1,4 @@
-package com.cheng.designpattern.Observer;
+package com.cheng.designpattern.observer;
 
 /**
  * @author ChengGuo

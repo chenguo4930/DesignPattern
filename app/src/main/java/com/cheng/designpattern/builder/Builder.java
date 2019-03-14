@@ -1,4 +1,4 @@
-package com.cheng.designpattern.Builder;
+package com.cheng.designpattern.builder;
 
 /**
  * 抽象Builder类

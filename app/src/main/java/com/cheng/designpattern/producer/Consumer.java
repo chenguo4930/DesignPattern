@@ -1,13 +1,13 @@
-package com.cheng.designpattern.Producer;
+package com.cheng.designpattern.producer;
 
 /**
  * @author ChengGuo
  * @date 2019/3/12
  */
-public class Producer extends Thread {
+public class Consumer extends Thread {
     private Resource resource;
 
-    public Producer(Resource resource){
+    public Consumer(Resource resource){
         this.resource = resource;
     }
 
@@ -15,11 +15,11 @@ public class Producer extends Thread {
     public void run() {
         while (true){
             try {
-                Thread.sleep(1000);
+                Thread.sleep(200);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            resource.add();
+            resource.remove();
         }
     }
 }

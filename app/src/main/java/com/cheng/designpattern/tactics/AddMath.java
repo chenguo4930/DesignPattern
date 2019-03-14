@@ -1,4 +1,4 @@
-package com.cheng.designpattern.Tactics;
+package com.cheng.designpattern.tactics;
 
 /**
  * @author ChengGuo

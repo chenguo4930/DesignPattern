@@ -1,4 +1,4 @@
-package com.cheng.designpattern.Producer;
+package com.cheng.designpattern.producer;
 
 /**
  * @author ChengGuo

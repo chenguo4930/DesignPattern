@@ -1,4 +1,4 @@
-package com.cheng.designpattern.Builder;
+package com.cheng.designpattern.builder;
 
 public class MateBook extends Computer {
     @Override

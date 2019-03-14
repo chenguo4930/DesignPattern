@@ -1,4 +1,4 @@
-package com.cheng.designpattern.Builder;
+package com.cheng.designpattern.builder;
 
 /**
  * 计算机抽象类，相当于Product角色
